@@ -2,6 +2,10 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import Present from '../assets/Present.png'
+import Vidpresent from '../assets/presentvid.mp4'
+
+
 import {
   PhotoChatMessage,
   Gradient,
@@ -16,8 +20,8 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="IA générative conçue pour les créateurs."
+          text="NEXTEP libère le potentiel des applications basées sur l'IA"
         />
 
         <div className="relative">
@@ -28,14 +32,15 @@ const Services = () => {
                 width={800}
                 alt="Smartest AI"
                 height={730}
-                src={service1}
+                src={Present}
               />
+
             </div>
 
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+              <h4 className="h4 mb-4"> Publicité display et native </h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+              NEXTEP libère le potentiel des applications basées sur l'IA
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -53,37 +58,33 @@ const Services = () => {
             <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
-          <div className="relative z-1 grid gap-5 lg:grid-cols-2">
+          <div className="relative z-2 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">
-                <img
-                  src={service2}
-                  className="h-full w-full object-cover"
-                  width={630}
-                  height={750}
-                  alt="robot"
-                />
-              </div>
+                <video src={Vidpresent} autoPlay loop muted >
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
+                </video>
+              </div>
+                <div className="mt-10">
+                <div className=" absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15 ">
+              <br />
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
+                   La création d'un site web moderne repose sur une conception épurée et intuitive <br />
                 </p>
               </div>
 
-              <PhotoChatMessage />
+                </div>
+              
+
+              
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Video generation</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                la génération d'art photo et vidéo IA la plus puissante au monde
                 </p>
-
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
                     <li

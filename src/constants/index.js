@@ -73,9 +73,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Forte présence visuelle",
+  "Gérer et Administrer les plateformes",
+  "Integration de",
 ];
 
 export const brainwaveServicesIcons = [
@@ -123,21 +123,21 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Avec une automatisation intelligente et une sécurité de premier ordre, c'est la solution idéale pour les équipes qui cherchent à travailler plus intelligemment.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Integration des outlis performants",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automatisation intelligente",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Sécurité de premier ordre",
   },
 ];
 
@@ -204,34 +204,54 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    description: "NEXTEP",
+    price: "700",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Création de site web vitrine : 5 à 10 pages ",
+      "Design responsive : Adapté aux mobiles et tablettes",
+      "Hébergement web : 1 an inclus",
+      "Nom de domaine : 1 an inclus",
+      "Référencement de base (SEO) : Optimisation on-page",
+      "Intégration réseaux sociaux : Liens vers vos comptes sociaux",
+      "Support technique : 3 mois inclus",
+      "Formation basique à l'utilisation du site : 2 heures",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "NEXTEP service avancé",
+    price: "1300",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Création de site web complet : Jusqu'à 20 pages",
+      "Design personnalisé : Création graphique sur mesure",
+      "Hébergement web : 2 ans inclus",
+      "Nom de domaine : 2 ans inclus",
+      "Référencement avancé (SEO) : Optimisation on-page et off-page, analyse des mots-clés",
+      "Gestion des réseaux sociaux : 3 plateformes, 10 publications par mois",
+      "Blog et contenu : Intégration d'un blog, 5 articles inclus",
+      "Support technique : 1 an inclus",
+      "Formation avancée à l'utilisation du site : 5 heures",
+      "Analytique web : Rapport mensuel de performance",
     ],
   },
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    description: "NEXTEP, analyses avancées, compte dédié",
+    price: "1800",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Création de site web complet : Pages illimitées, fonctionnalités avancées (e-commerce, forums, etc.)",
+      "Design haut de gamme : Design UX/UI sur mesure",
+      "Hébergement web : 3 ans inclus avec SSL",
+      "Nom de domaine : 3 ans inclus",
+      "Référencement professionnel (SEO) : Stratégie complète, backlinking, marketing de contenu",
+      "Gestion des réseaux sociaux : Gestion complète, création de contenu, publicité payante (PPC)",
+      "Marketing digital : Campagnes email marketing, Google Ads, Facebook Ads",
+      "Support technique : 2 ans inclus avec intervention prioritaire",
+      "Formation complète à l'utilisation du site et des outils : 10 heures",
+      "Analytique web et rapport de performance : Rapport détaillé avec analyse et recommandations mensuelles",
+      "Maintenance continue : Mises à jour régulières et optimisation",
     ],
   },
 ];
@@ -239,16 +259,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Demandez n'importe quoi",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Engagement Visuelle",
+    text: "l'objectif est de maintenir l'intérêt et d'encourager l'interaction des utilisateurs. Cela inclut la gestion des réseaux sociaux, l'email marketing.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Améliorer au quotidien",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "L'acquisition de trafic / Marketing de contenu",
+    text: "L'objectif ici est d'attirer des visiteurs sur les plateformes en ligne d'une entreprise, telles que le site web.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -256,16 +276,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connectez-vous partout",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "fidélisation et collaborations",
+    text: "Le but final est de convertir les visiteurs en clients payants et de les fidéliser. Les stratégies incluent les offres promotionnelles, les campagnes de remarketing.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Réponse rapide",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Création d'une identité digital",
+    text: "forge la présence en ligne d'une entreprise à travers un design visuel distinctif, une voix authentique et une cohérence de marque, renforçant ainsi sa reconnaissance et son impact auprès de son audience cible.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -273,20 +293,21 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Consulter Service NEXTEP",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Gestion des Réseaux Sociaux",
+    text: "Permet aux utilisateurs de trouver rapidement des réponses à leurs questions sans avoir à rechercher dans plusieurs sources.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Contactez-Nous",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Création Site et application web",
+    text: "L'application utilise le traitement du langage naturel pour comprendre les requêtes des utilisateurs et fournir des réponses précises et pertinentes.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
+
 ];
 
 export const socials = [

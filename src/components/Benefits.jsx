@@ -4,6 +4,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import logo from '../assets/logo.png'
 
 const Benefits = () => {
   return (
@@ -11,7 +12,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="NEXTEP A REDÉFINI LE PAYSAGE NUMÉRIQUE"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
@@ -28,7 +29,7 @@ const Benefits = () => {
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
-                    src={item.iconUrl}
+                    src={logo}
                     width={48}
                     height={48}
                     alt={item.title}
@@ -49,7 +50,7 @@ const Benefits = () => {
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
                     <img
-                      src={item.imageUrl}
+                      src={logo}
                       width={380}
                       height={362}
                       alt={item.title}
