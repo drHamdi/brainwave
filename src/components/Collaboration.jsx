@@ -25,7 +25,9 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button>Try it now</Button>
+          <Button className="hidden lg:flex" href="#clients">
+          Contactez-Nous
+        </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

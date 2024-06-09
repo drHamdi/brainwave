@@ -3,6 +3,7 @@ import { smallSphere, stars } from "../assets";
 import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
+import Button from "./Button";
 
 const Pricing = () => {
   return (
@@ -28,8 +29,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Commencez avec Nextep"
+          title="Payez une fois, utilisez pour toujours"
         />
 
         <div className="relative">
@@ -43,7 +44,9 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
-            See the full details
+            <Button className="hidden lg:flex" href="#clients">
+          Contactez-Nous
+        </Button>
           </a>
         </div>
       </div>

@@ -36,11 +36,17 @@ import {
   yourlogo,
 } from "../assets";
 
+import WebP from '../assets/Webpack.png'
+import WebPa from '../assets/Webpa.png'
+import SM from '../assets/Sm.png'
+import Serv from '../assets/Serv.png'
+
 export const navigation = [
   {
     id: "0",
     title: "Acceuil",
     url: "#features",
+    Link : "/" ,
   },
   {
     id: "1",
@@ -55,7 +61,7 @@ export const navigation = [
   {
     id: "3",
     title: "Contact",
-    url: "#roadmap",
+    url: "#clients",
   },
 
   {
@@ -89,36 +95,36 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Découvrez une expérience web",
+    text: "Faites confiance à notre savoir-faire pour propulser votre présence en ligne vers de nouveaux sommets.",
     date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
+    status: "Fait",
+    imageUrl: WebP,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Débuter votre affaire Marketing digital",
+    text: "Débutez votre aventure dans le marketing digital avec assurance. Notre expertise vous guide à travers les méandres du paysage numérique.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap2,
+    imageUrl: WebPa,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+    title: "Planification / Stratégie de contenu ",
+    text: "En suivant ces points, les gestionnaires des réseaux sociaux peuvent créer une présence en ligne efficace et engageante",
     date: "May 2023",
     status: "done",
-    imageUrl: roadmap3,
+    imageUrl: SM,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+    title: "Notre expertise garantit des résultats tangibles et durables.",
+    text: "Notre agence de marketing digital se spécialise dans la création de stratégies sur mesure pour maximiser votre présence en ligne. Nous utilisons les dernières tendances et technologies pour améliorer votre visibilité, engager votre audience et atteindre vos objectifs commerciaux.",
     date: "May 2023",
     status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: Serv,
   },
 ];
 
@@ -315,30 +321,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "https://discord.com/",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://x.com/i/flow/login",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://web.telegram.org/k/",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/profile.php?id=61559917217925",
   },
 ];

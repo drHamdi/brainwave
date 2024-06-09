@@ -3,7 +3,8 @@ import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import Present from '../assets/Present.png'
-import Vidpresent from '../assets/presentvid.mp4'
+import Rapport from '../assets/rapport.png'
+import Web from '../assets/Web.png'
 
 
 import {
@@ -28,7 +29,7 @@ const Services = () => {
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="hidden md:block w-full h-full object-cover md:object-right"
                 width={800}
                 alt="Smartest AI"
                 height={730}
@@ -60,17 +61,22 @@ const Services = () => {
 
           <div className="relative z-2 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
-              <div className="absolute inset-0">
-                <video src={Vidpresent} autoPlay loop muted >
+              <div className="">
+              <img
+                className="w-full h-full object-cover md:object-right"
+                width={800}
+                alt="Smartest AI"
+                height={1000}
+                src={Rapport}
+              />
 
-                </video>
+                
               </div>
                 <div className="mt-10">
-                <div className=" absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15 ">
+                <div className=" absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0  lg:p-15 ">
               <br />
-                <p className="body-2 mb-[3rem] text-n-3">
-                   La création d'un site web moderne repose sur une conception épurée et intuitive <br />
-                </p>
+                
+                  
               </div>
 
                 </div>
@@ -81,9 +87,10 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">Conception Créative</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                la génération d'art photo et vidéo IA la plus puissante au monde
+                En suivant ces étapes, vous pouvez créer un site web fonctionnel 
+                et attrayant qui répond aux besoins de votre public cible et atteint vos objectifs
                 </p>
                 <ul className="flex items-center justify-between">
                   {brainwaveServicesIcons.map((item, index) => (
@@ -109,17 +116,17 @@ const Services = () => {
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="">
                 <img
-                  src={service3}
+                  src={Web}
                   className="w-full h-full object-cover"
                   width={520}
                   height={400}
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                
+                
               </div>
             </div>
           </div>
